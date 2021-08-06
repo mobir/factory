@@ -3,7 +3,11 @@ package simpleFactory;
 public class SimpleFactoryClient {
 
 	public static void main(String[] args) {
-		System.out.println("hello");
+		PulpMaker pulpMaker = new PulpMaker();
+		pulpMaker.extractPulp("apple");
+		pulpMaker.extractPulp("orange");
+		pulpMaker.extractPulp("mango");
+		
 	}
 
 }
