@@ -1,9 +1,9 @@
 package simpleFactory;
 
-import common.ApplePulpExtractor;
-import common.MangoPulpExtractor;
-import common.OrangePulpExtractor;
-import common.PulpExtractor;
+import simpleFactory.pulpExtractor.PulpExtractor;
+import simpleFactory.pulpExtractor.impl.ApplePulpExtractor;
+import simpleFactory.pulpExtractor.impl.MangoPulpExtractor;
+import simpleFactory.pulpExtractor.impl.OrangePulpExtractor;
 
 public class SimpleStaticPulpFactory {
 

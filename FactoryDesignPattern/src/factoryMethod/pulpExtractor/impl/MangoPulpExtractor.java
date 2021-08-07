@@ -1,4 +1,6 @@
-package common;
+package factoryMethod.pulpExtractor.impl;
+
+import factoryMethod.pulpExtractor.PulpExtractor;
 
 public class MangoPulpExtractor implements PulpExtractor {
 

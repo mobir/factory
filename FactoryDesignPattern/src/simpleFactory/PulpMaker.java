@@ -1,6 +1,6 @@
 package simpleFactory;
 
-import common.PulpExtractor;
+import simpleFactory.pulpExtractor.PulpExtractor;
 
 public class PulpMaker {
 

@@ -1,4 +1,6 @@
-package common;
+package simpleFactory.pulpExtractor.impl;
+
+import simpleFactory.pulpExtractor.PulpExtractor;
 
 public class OrangePulpExtractor implements PulpExtractor {
 
