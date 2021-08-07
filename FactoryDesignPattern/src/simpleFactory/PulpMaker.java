@@ -4,14 +4,14 @@ import simpleFactory.pulpExtractor.PulpExtractor;
 
 public class PulpMaker {
 
-	public void extractPulp(String fruit) {
+	public void extractPulp(String fruit) throws Exception {
 		PulpExtractor pulpExtractor = SimpleStaticPulpFactory.createPulpExtractor(fruit);
-		
-		pulpExtractor.wash();
 		
 		pulpExtractor.peel();
 		
-		pulpExtractor.extract();
+		pulpExtractor.removeSeed();
+		
+		pulpExtractor.separatePulp();
 	}
 
 }

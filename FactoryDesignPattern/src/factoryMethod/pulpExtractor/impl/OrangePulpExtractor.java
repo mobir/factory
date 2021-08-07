@@ -5,20 +5,18 @@ import factoryMethod.pulpExtractor.PulpExtractor;
 public class OrangePulpExtractor implements PulpExtractor {
 
 	@Override
-	public void wash() {
-		System.out.println("wash orange");
-	}
-
-	@Override
 	public void peel() {
 		System.out.println("peel orange");
-
+	}
+	
+	@Override
+	public void removeSeeds() {
+		System.out.println("remove orange seeds");
 	}
 
 	@Override
-	public void extract() {
-		System.out.println("extract orange");
-
+	public void separatePulp() {
+		System.out.println("separate orange pulp");
 	}
 
 }

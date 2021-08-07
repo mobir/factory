@@ -5,20 +5,18 @@ import factoryMethod.pulpExtractor.PulpExtractor;
 public class MangoPulpExtractor implements PulpExtractor {
 
 	@Override
-	public void wash() {
-		System.out.println("wash mango");
-	}
-
-	@Override
 	public void peel() {
 		System.out.println("peel mango");
-
+	}
+	
+	@Override
+	public void removeSeeds() {
+		System.out.println("remove mango seed");
 	}
 
 	@Override
-	public void extract() {
-		System.out.println("extract mango");
-
+	public void separatePulp() {
+		System.out.println("separate mango pulp");
 	}
 
 }

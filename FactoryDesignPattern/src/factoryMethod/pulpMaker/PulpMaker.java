@@ -7,11 +7,11 @@ public abstract class PulpMaker {
 	public void extractPulp() throws Exception {
 		PulpExtractor pulpExtractor = this.createPulpExtractor();
 		
-		pulpExtractor.wash();
-		
 		pulpExtractor.peel();
 		
-		pulpExtractor.extract();
+		pulpExtractor.removeSeeds();
+		
+		pulpExtractor.separatePulp();
 	}
 	
 	public abstract PulpExtractor createPulpExtractor() throws Exception;

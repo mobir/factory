@@ -1,9 +1,9 @@
 package factoryMethod.pulpExtractor;
 
 public interface PulpExtractor {
-	void wash();
+	void removeSeeds();
 	
 	void peel();
 	
-	void extract();
+	void separatePulp();
 }
