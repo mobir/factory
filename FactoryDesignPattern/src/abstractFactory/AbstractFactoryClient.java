@@ -27,7 +27,6 @@ public class AbstractFactoryClient {
 		pulpMaker = new PulpMaker(pulpExtractor);
 		pulpMaker.extractPulp();
 		
-		
 	}
 
 }
