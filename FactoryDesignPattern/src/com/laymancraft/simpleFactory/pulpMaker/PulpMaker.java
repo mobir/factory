@@ -6,12 +6,8 @@ public class PulpMaker {
 
 	public void extractPulp(String fruit) throws Exception {
 		PulpExtractor pulpExtractor = SimpleStaticPulpFactory.createPulpExtractor(fruit);
-		
 		pulpExtractor.peel();
-		
 		pulpExtractor.removeSeed();
-		
 		pulpExtractor.separatePulp();
 	}
-
 }

@@ -5,7 +5,7 @@ import com.laymancraft.factoryMethod.pulpExtractor.PulpExtractor;
 public abstract class PulpMaker {
 
 	public void extractPulp() throws Exception {
-		PulpExtractor pulpExtractor = this.createPulpExtractor();
+		PulpExtractor pulpExtractor = createPulpExtractor();
 		
 		pulpExtractor.peel();
 		

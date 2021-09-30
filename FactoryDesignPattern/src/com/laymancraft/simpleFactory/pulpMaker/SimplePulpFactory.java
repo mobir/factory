@@ -5,9 +5,8 @@ import com.laymancraft.simpleFactory.pulpExtractor.impl.ApplePulpExtractor;
 import com.laymancraft.simpleFactory.pulpExtractor.impl.MangoPulpExtractor;
 import com.laymancraft.simpleFactory.pulpExtractor.impl.OrangePulpExtractor;
 
-public class SimpleStaticPulpFactory {
-
-	public static PulpExtractor createPulpExtractor(String fruit) throws Exception {
+public class SimplePulpFactory {
+	public PulpExtractor createPulpExtractor(String fruit) throws Exception {
 		if(fruit.equals("apple")) {
 			return new ApplePulpExtractor();
 		} else if(fruit.equals("orange")) {
